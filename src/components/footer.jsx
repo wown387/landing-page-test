@@ -5,10 +5,10 @@ export const Footer = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
+            &copy; 2023 Dinkas Inc. All Rights Reserved {' '}
+            {/* <a href='http://www.templatewire.com' rel='nofollow'>
               TemplateWire
-            </a>
+            </a> */}
           </p>
         </div>
       </div>
