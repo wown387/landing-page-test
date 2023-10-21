@@ -9,7 +9,6 @@ import { Testimonials } from './components/testimonials'
 import { Footer } from './components/footer'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
-
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -19,9 +18,12 @@ const App = () => {
   const [landingPageData, setLandingPageData] = useState({})
   useEffect(() => {
     setLandingPageData(JsonData)
+    // const mapDiv = document.getElementById("map");
+    // console.log(mapDiv, 123)
+    // const map = new window.naver.maps.Map(mapDiv);
   }, [])
-
   return (
+
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
@@ -31,7 +33,9 @@ const App = () => {
       <Services data={landingPageData.Services} />
       <Testimonials data={landingPageData.Testimonials} />
       <Footer />
+      {/* <MapNaverDefault /> */}
     </div>
+
   )
 }
 
