@@ -6,12 +6,12 @@ export const Gallery = props => {
   const [isViewerOpen, setIsViewerOpen] = useState(false);
 
   const data = [
-    { thumb: "img/portfolio/01-small.jpg", title: "Lorem Ipsum1" },
-    { thumb: "img/portfolio/02-small.jpg", title: "Lorem Ipsum2" },
-    { thumb: "img/portfolio/03-small.jpg", title: "Lorem Ipsum3" },
-    { thumb: "img/portfolio/04-small.jpg", title: "Lorem Ipsum4" },
-    { thumb: "img/portfolio/05-small.jpg", title: "Lorem Ipsum5" },
-    { thumb: "img/portfolio/06-small.jpg", title: "Lorem Ipsum6" },
+    { thumb: "img/portfolio/1.png", title: "인플루언서 쇼핑몰" },
+    { thumb: "img/portfolio/2.png", title: "스튜디오 빌더" },
+    { thumb: "img/portfolio/3.png", title: "관리자 페이지" },
+    { thumb: "img/portfolio/4.png", title: "NFT 인증 어플" },
+    { thumb: "img/portfolio/5.png", title: "아티클 사이트" },
+    { thumb: "img/portfolio/6.png", title: "출시 대기 프로젝트" },
     
   ];
 
@@ -32,7 +32,7 @@ export const Gallery = props => {
       <div className="container">
         <div className="section-title">
           <h2>Projects</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+          {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p> */}
         </div>
         <div className="row">
           <div className="portfolio-items">

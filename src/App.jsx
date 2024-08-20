@@ -23,14 +23,13 @@ const App = () => {
     // const map = new window.naver.maps.Map(mapDiv);
   }, [])
   return (
-
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Gallery />
-      <Services data={landingPageData.Services} />
+      {/* <Services data={landingPageData.Services} /> */}
       <Testimonials data={landingPageData.Testimonials} />
       <Footer />
       {/* <MapNaverDefault /> */}
