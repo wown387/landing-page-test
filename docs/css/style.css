@@ -196,6 +196,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro .overlay {
 	background: rgba(0,0,0,0.2);
 }
+		
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
@@ -205,6 +206,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-top: 0;
 	margin-bottom: 10px;
 }
+@media (max-width: 500px) {
+	h1 {
+		font-size: 37px !important
+	}
+	p{
+		font-size: 15px !important;
+	}
+}
+
 .intro h1 span {
 	font-weight: 800;
 	color: #5ca9fb;
